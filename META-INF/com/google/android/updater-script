@@ -1,0 +1,29 @@
+show_progress(1.000000, 0);
+
+ui_print("Mounting /system...");
+run_program("/sbin/busybox", "mount", "/system");
+set_progress(0.140000);
+
+ui_print("Mounting /data...");
+run_program("/sbin/busybox", "mount", "/data");
+set_progress(0.280000);
+
+ui_print("Extracting package...");
+package_extract_dir("system/addon.d", "/system/addon.d");
+set_perm(0,0,0755,"/system/addon.d/90-remove-unused-apps.sh");
+set_progress(0.420000);
+
+ui_print("Cleaning up...");
+run_program("/system/addon.d/90-remove-unused-apps.sh");
+set_progress(0.570000);
+
+ui_print("Unmounting /system...");
+unmount("/system");
+set_progress(0.710000);
+
+ui_print("Unmounting /data...");
+unmount("/data");
+set_progress(0.850000);
+
+ui_print("Done");
+set_progress(1.000000);
