@@ -4,7 +4,7 @@ This thing removes stuff from your device.
 
 ## What gets deleted?
 
-Please see the [source code](blob/master/system/addon.d/90-remove-unused-apps.sh) for an up to date list of packages which get removed by this thing.
+Please see the [source code](system/addon.d/90-remove-unused-apps.sh) for an up to date list of packages which get removed by this thing.
 
 ## Requirements
 
