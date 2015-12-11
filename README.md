@@ -16,15 +16,15 @@ Please see the [source code](blob/master/system/addon.d/90-remove-unused-apps.sh
 
 1. Build the flashable zip file.
 
-      make zip
+        make zip
 
 2. Copy the zip file to the sdcard of your android device
 
-      make push
+        make push
 
 3. Boot your device into recovery.
 
-      make recovery
+        make recovery
 
 
 4. Install rom-cleaner.zip
