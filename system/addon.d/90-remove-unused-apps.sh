@@ -32,6 +32,7 @@ if [ -z "$1" ] || [ "$1" == 'post-restore' ] ; then
   rm -rf /system/app/PrebuiltKeep
   rm -rf /system/app/PrebuiltNewsWeather
   rm -rf /system/app/PinyinIME
+  rm -rf /system/app/Snap
   rm -rf /system/app/Street
   rm -rf /system/app/Terminal
   rm -rf /system/app/Videos
