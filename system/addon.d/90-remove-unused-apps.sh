@@ -31,7 +31,6 @@ PrebuiltExchange3Google
 PrebuiltKeep
 PrebuiltNewsWeather
 PinyinIME
-Snap
 Street
 Terminal
 Videos
