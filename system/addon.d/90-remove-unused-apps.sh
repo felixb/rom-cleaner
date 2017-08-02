@@ -17,6 +17,7 @@ FitnessPrebuilt
 Galaxy4
 GenieWidget
 GoogleEarth
+Jelly
 HoloSpiralWallpaper
 LiveWallpapers
 MagicSmokeWallpapers
@@ -31,6 +32,7 @@ PrebuiltExchange3Google
 PrebuiltKeep
 PrebuiltNewsWeather
 PinyinIME
+Snap
 Street
 Terminal
 Videos
